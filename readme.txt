@@ -36,7 +36,7 @@
 # copy ezbbc and fluxtoolbar files only if you have those modifications installed
 #
 
-files/mapbbcode/* to mapbbcode/
+files/include/mapbbcode/* to include/mapbbcode/
 files/plugins/ezbbc/style/Default/images/map.png to plugins/ezbbc/style/Default/images/map.png
 files/img/fluxtoolbar/smooth/bt_map.png to img/fluxtoolbar/smooth/bt_map.png
 
@@ -56,8 +56,9 @@ header.php
 #---------[ 4. AFTER, ADD ]-------------------------------------------------
 #
 
-<script type="text/javascript" src="mapbbcode/MapBBCodeLoader.min.js"></script>
+<script type="text/javascript" src="include/mapbbcode/MapBBCodeLoader.min.js"></script>
 <script type="text/javascript">mapBBCodeLoaderOptions.set({
+	path: "include/mapbbcode/",
     language: "<?php echo $lang_common['lang_identifier'] ?>"
 });</script>
 

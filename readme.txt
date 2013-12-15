@@ -115,5 +115,5 @@ mod_easy_bbcode.php
 							<input type="button" value="MAP" name="MAP" class="mapbbcode_edit" />
 
 #
-#---------[ 10. SAVE/UPLOAD ]--------------------------------------------------
+#---------[ 13. SAVE/UPLOAD ]--------------------------------------------------
 #

@@ -7,8 +7,6 @@ unzip -q $DISTFILE
 rm $DISTFILE
 wget -nv https://raw.github.com/MapBBCode/mapbbcode-loader/master/MapBBCodeLoader.min.js -O mapbbcode/MapBBCodeLoader.min.js
 wget -nv https://raw.github.com/MapBBCode/mapbbcode-loader/master/mapbbcode-window.html -O mapbbcode/mapbbcode-window.html
-# this is awesome line editing to fix mapbbcode path
-printf '/force/\n-a\npath: ".",\n.\nw\n' | ed mapbbcode/mapbbcode-window.html
 mkdir -p files/include
 mv mapbbcode files/include/
 

@@ -59,7 +59,8 @@ header.php
 <script type="text/javascript" src="include/mapbbcode/MapBBCodeLoader.min.js"></script>
 <script type="text/javascript">mapBBCodeLoaderOptions.set({
 	path: "include/mapbbcode/",
-    language: "<?php echo $lang_common['lang_identifier'] ?>"
+	windowRelPath: ".",
+	language: "<?php echo $lang_common['lang_identifier'] ?>"
 });</script>
 
 #
